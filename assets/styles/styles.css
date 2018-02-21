@@ -1,6 +1,6 @@
 
 .aboutMk {
-	font-family: 'Petit Formal Script', cursive;
+	/* font-family: 'Clicker Script', cursive; */
 	font-size: 20px;
 	/* color: #16608A; */
 	display: block;
@@ -8,3 +8,8 @@
 	margin: auto;
 }
 
+#homeFloral2 {
+    margin-top: 50px;
+    float: right;
+    margin-right: 75px;
+}
