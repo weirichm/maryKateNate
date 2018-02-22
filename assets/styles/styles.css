@@ -52,7 +52,7 @@ li {
 
 #landingInfo {
     position: relative;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 10px;
     left: 21%;
 }
@@ -95,8 +95,11 @@ h3, h4, p {
     font-family: 'Playfair Display', serif;
 }
 
+.hiddenSmView {
+    visibility: hidden;
+}
 
-@media only screen and (max-width: 1025px) {
+/* @media only screen and (max-width: 1025px) {
     #homeImg {
         position: absolute;
         top: 25%;
@@ -112,9 +115,10 @@ h3, h4, p {
         padding: 10px;
         margin-left: 40px;
     }
-}
+} */
+/*  */
 
-@media only screen and (max-width: 769px) {
+/* @media only screen and (max-width: 992px) {
     #leftFlower {
         width: 400px;
         height: auto;
@@ -122,5 +126,19 @@ h3, h4, p {
     #homeImg {
         position: absolute;
     
+    }
+} */
+
+@media only screen and (max-width: 1025px) {
+    .hiddenSmView {
+        visibility: visible;
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+    .row {
+        visibility: hidden;
     }
 }
