@@ -6,7 +6,7 @@
 	display: block;
 	text-align: center;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* #homeFloral2 {
@@ -32,7 +32,7 @@ li {
 	left: 38%;
     z-index: -1;
     transform: translate(-50%, -50%);
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 #leftFlower {
@@ -51,6 +51,6 @@ li {
 
 #landingInfo {
     position: relative;
-    margin-top: 5%;
+    margin-top: 1%;
     left: 25%;
 }
