@@ -1,6 +1,6 @@
 
 .aboutMk {
-	/* font-family: 'Clicker Script', cursive; */
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	/* color: #16608A; */
 	display: block;
@@ -66,4 +66,29 @@ li {
 
 #book {
     color: grey;
+}
+
+h3, h4, p {
+    font-family: 'Karla', sans-serif;
+}
+
+.karla {
+    font-family: 'Karla', sans-serif;
+}
+
+.karlaBold {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.btn-info {
+    background-color: grey;
+}
+
+.accomodations {
+    font-family: 'Playfair Display', serif;
+}
+
+.registry {
+    font-family: 'Playfair Display', serif;
 }
