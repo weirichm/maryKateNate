@@ -52,5 +52,18 @@ li {
 #landingInfo {
     position: relative;
     margin-top: 1%;
-    left: 25%;
+    padding: 10px;
+    left: 21%;
+}
+
+#clickInfo {
+    background-color:#f9e0dc8a;
+    color:  #4e6d4d;
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: 2px;
+}
+
+#book {
+    color: grey;
 }
