@@ -5,11 +5,52 @@
 	/* color: #16608A; */
 	display: block;
 	text-align: center;
-	margin: auto;
+    margin: auto;
+    padding-top: 20px;
 }
 
-#homeFloral2 {
+/* #homeFloral2 {
     margin-top: 50px;
     float: right;
     margin-right: 75px;
+} */
+
+.navBar {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+#homeImg {
+    position: absolute;
+    top: 50%;
+	left: 38%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    padding-top: 60px;
+}
+
+#leftFlower {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#rightFlower {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#landingInfo {
+    position: relative;
+    margin-top: 5%;
+    left: 25%;
 }
