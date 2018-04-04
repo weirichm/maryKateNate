@@ -1,94 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    
 	<link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
     
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Playfair+Display" rel="stylesheet">
 
-   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<title>MaryKate and Nathan</title>
 </head>
+
 <body>
-
-    <div class="navBar">
-                <ul>
-                    <!-- <li>Home</li> -->
-                    <!-- <li>Ceremony</li>
-                    <li>Reception</li>
-                    <li>Story</li>
-                    <li>Registry</li> -->
-                    <!-- <li>Accomodations</li> -->
-                    <!-- <li>Explore RDU</li> -->
-                </ul>
+  <section class="hero is-fullheight is-default is-bold">
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <!-- <img src="assets/images/florals091.png" alt="Logo"> -->
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu" >
+ <div class="navbar-end"><div class="tabs is-right">
+  <ul style="font-family: 'Karla', sans-serif;">
+    <li><a href="">Home</a></li>
+    <li><a href="">MK + Nate</a></li>
+    <li><a href="">Accomodations</a></li>
+    <li><a href="">Ceremony</a></li>
+    <li><a href="">Reception</a></li>
+    <li><a href="">Explore RDU</a></li>
+    <li><a href="">Registry</a></li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column is-three-fifths">
+            <figure class="image is-4by3">
+              <img src="assets/images/DSC_3090-Edit.jpg" alt="Description">
+            </figure>
+          </div>
+          <div class="column auto">
+            <br>
+            <br>
+            <h1 class="title is-2" style="font-family: 'Playfair Display', serif;">
+                Mary Kate & Nathan
+            </h1>
+            <h2 class="subtitle is-4" style="font-family: 'Playfair Display', serif;">
+                6.23.18
+            </h2>
+            <br>
+            <!-- <p class="has-text-centered">
+              <a class="button is-medium is-info is-outlined" style="background-color: transparent; border-color: #fac7bf; color: #fac7bf">
+                The Story
+              </a>
+            </p> -->
+            <img src="assets/images/florals091.png" style="height: auto; width: 60%;">
+          </div>
+        </div>
+      </div>
     </div>
 
-	<header>
-		<div class="aboutMk">
-            <h1>Mary Kate & Nathan</h1>
-            <h1>6.23.18</h1>
-		</div>
-    </header>
-
-    <div class="hiddenSmView">
-            <h4 class="accomodations">This view is still in process! Please view on larger screen!</h4>
+    <div class="hero-foot">
+      <div class="container">
+        <div class="tabs is-centered">
+          <ul>
+            <li><a>And this at the bottom</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-    <div class=".container-fluid" id="mainPhoto">
-            <div class="row">
-              <div class=".col-sm-4 col-md-4" id"leftFlower">
-                    <img src="assets/images/florals091.png" alt="Florals" style="width:700px; height:auto;" class="img-responsive">
-              </div>
-              <div class=" .col-sm-4col-md-4" id="homeImg">
-                    <img src="assets/images/mkNate.jpg" alt="MaryKate and Nathan" style="width:400px; height:auto;" class="img-responsive">
-              </div>
-
-              <section>
-                    <div class="col-md-4" id="landingInfo">
-                        <h3 class="karlaBold">Welcome!</h3>
-                        <h4 class="karla">There is much more coming soon, but for starters we have some important info about our accommodations and registry!</h3>
-                        <p>We want to make sure you feel prepared! Below is a link
-                            for the hotel that we have reserved and a link for our registry.
-                        </p>
-                     
-                        <div id="clickInfo">
-                            <h4 class="accomodations">Accommodations:</h4>
-                            <h5 class="karla"><a href="https://secure3.hilton.com/en_US/hw/reservation/book.htm?execution=e1s1" target="_blank" id="book">Book Here!</a></h5>
-                            <h6 class="karla">Group Booking Code: JKW</h6>
-                            <h6 class="karla">Hotel Code: CRYHS</h6>
-                            <br>
-                            <h4 class="registry">Registry:</h4>
-                            <a class="btn btn-default btn-sm" href="https://www.target.com/gift-registry/giftgiver?registryId=e16e347a1ea74a609c3b1f4078f60556&lnk=registry_custom_url#1" target="_blank" role="button">Target</a>
-                            <a class="btn btn-default btn-sm" href="https://m.bedbathandbeyond.com/m/giftRegistry?registryId=545338144&inventoryCallEnabled=true" target="_blank" role="button">BB&B</a>
-                            <a class="btn btn-default btn-sm" href="https://www.myregistry.com/giftlist/jagodakornegay2018" target="_blank" role="button">MyRegistry</a>
-                            <br>
-                        </div>  
-                        <!-- <h4>More Coming Soon!</h4> -->
-                    </div>
-             </section>
-              <!-- <div class="col-md-4" id"rightFlower">
-                    <img src="assets/images/homePageFloral2.png" alt="Florals" style="width:475px;height:auto;" class="img-responsive">
-              </div> -->
-            </div>
-    </div>
-<!--     
-    <div >
-            <img src="assets/images/florals091.png" alt="Florals" style="width:500px; height:auto;">
-            <img src="assets/images/mkNate.jpg" alt="MaryKate and Nathan" style="width:300px; height:autp;">
-            <img src="assets/images/homePageFloral2.png" alt="Florals" style="width:475px;height:auto;" id="homeFloral2">
-    </div> -->
-
-    <!-- <div >
-            <img src="assets/images/homePageFloral2.png" alt="Florals" style="width:500px;height:auto;">
-    </div> -->
-	
+  </section>
+  <script async type="text/javascript" src="../js/bulma.js"></script>
 </body>
 </html>
